@@ -1,4 +1,4 @@
-# 🔮 Hybrid LSTM-Transformer for Cryptocurrency Price Forecasting
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/4978df2f-7290-446f-b073-5c38759712a0" /># 🔮 Hybrid LSTM-Transformer for Cryptocurrency Price Forecasting
 
 > **A Parallel Hybrid LSTM-Transformer Approach with Dynamic Directional Volatility-Adjusted Loss for Multi-Asset, Multi-Temporal Cryptocurrency Forecasting**
 
@@ -23,27 +23,8 @@ The framework was evaluated on **Bitcoin (BTC)**, **Ethereum (ETH)**, and **Sola
 
 ## 🏗️ Architecture
 
-```
-Time-Series Sequence (SHAP-Selected Features)
-            │
-    Input Projection & Positional Encoding
-            │
-     ┌──────┴──────┐
-     │             │
- Transformer    BiLSTM / BiGRU
-  Encoder         Stream
-  (Global)        (Local)
-     │             │
-     └──────┬──────┘
-    Bidirectional Cross-Attention
-      T→L          L→T
-     └──────┬──────┘
-      Feature Fusion Layer
-            │
-   Directional Huber Loss Module
-            │
-    Bitcoin Return Prediction
-```
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/375c7170-2dd7-4d3e-851c-1952a8b6c4a7" />
+
 
 The **Transformer stream** captures macro/global dependencies without distance-based degradation. The **BiLSTM stream** reinforces local temporal inductive biases. Cross-attention allows both streams to mutually enrich each other's representations before fusion.
 
@@ -75,9 +56,9 @@ The DVA loss reduces RMSE by up to **~24–26%** compared to standard training o
 ## 📁 Repository Structure
 
 ```
-├── proyecto_ia_iii_final.py   # Main implementation (Colab notebook export)
+├── Proyecto_IA_III_Final (1).ipynb   # Main implementation (Colab notebook export)
 ├── README.md
-└── ...
+└── A Hybrid LSTM-Transformer Approach for Cryptocurrency Price Forecasting.pdf
 ```
 
 The main script covers the full pipeline end-to-end:
