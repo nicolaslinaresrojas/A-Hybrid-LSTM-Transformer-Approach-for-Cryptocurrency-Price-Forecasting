@@ -1,4 +1,4 @@
-> **A Parallel Hybrid LSTM-Transformer Approach with Dynamic Directional Volatility-Adjusted Loss for Multi-Asset, Multi-Temporal Cryptocurrency Forecasting**
+**A Parallel Hybrid LSTM-Transformer Approach with Dynamic Directional Volatility-Adjusted Loss for Multi-Asset, Multi-Temporal Cryptocurrency Forecasting**
 
 *Universidad Industrial de Santander (UIS) — Daniel Aguilar Navas · Ivan Augusto Camargo López · Nicolas Linares Rojas*
 
