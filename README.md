@@ -1,5 +1,3 @@
-<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/4978df2f-7290-446f-b073-5c38759712a0" /># 🔮 Hybrid LSTM-Transformer for Cryptocurrency Price Forecasting
-
 > **A Parallel Hybrid LSTM-Transformer Approach with Dynamic Directional Volatility-Adjusted Loss for Multi-Asset, Multi-Temporal Cryptocurrency Forecasting**
 
 *Universidad Industrial de Santander (UIS) — Daniel Aguilar Navas · Ivan Augusto Camargo López · Nicolas Linares Rojas*
